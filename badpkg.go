@@ -8,6 +8,6 @@ func Hello(name string) string {
 }
 
 func Test() string {
-    msg := fmt.Sprintf("Hi")
+    
     return quote.Hello()
 }

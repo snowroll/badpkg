@@ -7,6 +7,6 @@ func Hello(name string) string {
 }
 
 func Test() string {
-    msg := 'hhh i modify'
+    msg := 'hhh i modify v1.0.1'
     return msg
 }

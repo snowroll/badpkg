@@ -2,11 +2,8 @@ package badpkg
 import "fmt"
 
 func Hello(name string) string {
-    message := fmt.Sprintf("Hi, %v. Welcome!", name)
+    message := fmt.Sprintf("Hi, %v. Welcome! the version of badpkg is v1.0.2", name)
     return message
 }
 
-func Test() string {
-    msg := 'hhh i modify v1.0.1'
-    return msg
-}
+
